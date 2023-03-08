@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Shantell+Sans:wght@300&display=swap');
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main{
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+    grid-column: 1/2;
+}
+.head{
+    color: #868da5;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10%;
+}
+.text{
+    line-height: .25em;
+    color: lightgrey;
+    margin: 10%;
+}
+input{
+    width: 50%;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(243, 236, 236);
+    color: grey;
+    margin: 2px;
+    padding: 15px;
+}
+button{
+    background-color: #2d578b;
+    color: lightgray;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50%;
+    height: 35px;
+    margin: 15px 0;
+}
+.form{
+    margin: 0 12%;
+}
+footer{
+    grid-column: 2/3;
+}
