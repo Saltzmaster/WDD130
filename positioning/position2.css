@@ -1,0 +1,17 @@
+
+section{
+    width: 50%;
+    border: 1px solid;
+}
+.b{
+    margin: 0 auto;
+}
+.c{
+    margin-left: auto;
+}
+.two{
+    text-align: center;
+}
+.three{
+    text-align: right;
+}
