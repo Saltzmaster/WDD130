@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="child.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Welcome from the Kar</title>
 </head>
@@ -15,7 +15,9 @@
             <h2>Welcome from the Kar</h2>
         </div>
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Race Information</button>
+            <button onclick="myFunction()" class="dropbtn">Race Information<span style="display:block" class="material-symbols-outlined">
+                expand_more
+                </span></button>
             <div id="myDropdown" class="dropdown-content">
                 <a href="main.html">World Overview</a>
                 <a href="page2.html">The Aelv</a>
@@ -35,34 +37,36 @@
         </div>
     </header>
     <main>
-        <div>
-            <img src="img/Kar.jpg" alt="image for page3">
+        <div class="race">
+            <img src="img/Kar.png" alt="image for page3">
         </div>
-        <section><h3>The Kar</h3></section>
-        <section>
+        <div class="description">
+            <h3>The Kar</h3>
             <p>
                 Consider what an alligator would look like as a human, that would be a Kar. The Kar have thick leather-like skin and have slight webbing under their arms and legs as well as in between their fingers and toes and there are sharp claws protruding from each as well. Their long thick tails and long almost snout like noses are distinguishing features. Their teeth are sharp and serrated and they have no visible ears, only small hearing holes like most reptiles. The rest of their build is similar to that of any human including five fingers and toes.
             </p>
-        </section>
-        <section>
+        </div>
+        <section class="system">
             <p>
                 The Kar connects to the Nothing with jewelry although they mostly use rings and sometimes bracelets. Each is inscribed with runes and symbols for a single spell. This is both fast and comfortable, the ability to change rings quickly has a very high battle flexibility and convenience. The drawbacks are the price and accessibility. The material needed to craft the rings is rare and expensive and if a mage is caught without their tools then they are often defenseless.  
             </p>
         </section>
-        <div>
+        <div class="class">
             <img src="img/Kar_magic.png" alt="image for page3">
         </div>
     </main>
     <footer>
-        <a href="site-plan.html">Check out the blueprint</a>
-        <a href="https://facebook.com" target="_blank">
-            <img src="img/facebook.png" alt="fb icon">
-        </a>
-        <a href="https://twitter.com" target="_blank">
-            <img src="img/twitter.png" alt="twitter icon">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-            <img src="img/instagram.png" alt="instagram icon">
-        </a>
+        <a class="site-plan" href="site-plan.html">Check out the blueprint</a>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="img/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="img/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="img/instagram.png" alt="instagram icon">
+            </a>
+        </div>    
     </footer>
 </html>
