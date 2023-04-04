@@ -7,12 +7,12 @@ header{
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    background-color: #5a4e1a;
+    background-color: #5c626a;
     font-family: 'Shantell Sans', cursive;
 }
 .logo{
     grid-column: 1;
-    margin: 20px 25px 20px 50px;
+    margin: 25px 25px 20px 50px;
 }
 .logo img{
     width: 75px;
@@ -20,7 +20,8 @@ header{
 .head{
     grid-column: 2;
     text-align: center;
-    color: #9eb5af;
+    color: black;
+    margin-top: 15px;
 }
 .dropbtn{
     background-color: #3498DB;
@@ -34,7 +35,7 @@ header{
 .dropdown{
     position: relative;
     display: inline-block;
-    margin: 15px 10px;
+    margin: 20px 10px;
     padding-right: 25px;
 }
 .dropdown-content{
@@ -62,7 +63,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0;
     padding: 0;
-    background-color: #98904f;
+    background-color: #bfbfbf;
     font-family: 'Shantell Sans', cursive;
 }
 .race{
@@ -76,8 +77,8 @@ main{
     margin: 25px 50px;
     padding: 10px 25px;
     line-height: 2em;
-    background-color: #9eb5af;
-    box-shadow: 5px 5px 10px #9d692f;
+    background-color: #6e6966;
+    box-shadow: 5px 5px 100px #594731;
     margin-top: 30%;
     font-family: 'Shantell Sans', cursive;
 }
@@ -87,8 +88,8 @@ main{
     margin: 25px 50px;
     padding: 10px 25px;
     line-height: 2em;
-    background-color: #9eb5af;
-    box-shadow: 5px 5px 10px #9d692f;
+    background-color: #6e6966;
+    box-shadow: 5px 5px 100px #594731;
     font-family: 'Shantell Sans', cursive;
 }
 .class{
@@ -105,7 +106,7 @@ main{
 }
 
 footer{
-    background-color: #5a4e1a;
+    background-color: #5c626a;
     font-family: 'Shantell Sans', cursive;
     display: grid;
     grid-template-columns: 1fr 6fr 3fr;
