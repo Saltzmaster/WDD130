@@ -106,21 +106,22 @@ main{
 }
 
 footer{
-    background-color: #282229;
+    background-color: #5a4e1a;
     font-family: 'Shantell Sans', cursive;
-    display: grid;
-    grid-template-columns: 1fr 6fr 3fr;
+    display: flex;
+    justify-content: space-between;
 }
 .site-plan{
     border: 1px solid black;
     background-color: #3498DB;
-    grid-column: 1;
     padding: 15px;
-    margin: 25px;
+    margin: 20px;
     color: black;
-    text-align: center;
+    text-align: left;
+    max-width: 100px;
+    max-height: 80px;
 }
 .social{
-    grid-column: 4/5;
     margin: 35px;
+    text-align: right;
 }

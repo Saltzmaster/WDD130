@@ -12,7 +12,8 @@ header{
 }
 .logo{
     grid-column: 1;
-    margin: 25px 25px 20px 50px;
+    margin: 25px 0;
+    text-align: center;
 }
 .logo img{
     width: 75px;
@@ -37,6 +38,7 @@ header{
     display: inline-block;
     margin: 20px 10px;
     padding-right: 25px;
+    text-align: center;
 }
 .dropdown-content{
     display: none;
@@ -165,17 +167,18 @@ main{
 footer{
     background-color: #5a4e1a;
     font-family: 'Shantell Sans', cursive;
-    display: grid;
-    grid-template-columns: 1fr 6fr 3fr;
+    display: flex;
+    justify-content: space-between;
 }
 .site-plan{
     border: 1px solid black;
     background-color: #3498DB;
-    grid-column: 1;
     padding: 15px;
-    margin: 25px;
+    margin: 20px;
     color: black;
-    text-align: center;
+    text-align: left;
+    max-width: 100px;
+    max-height: 80px;
 }
 /* .new{
     border: 1px solid black;
@@ -188,6 +191,6 @@ footer{
     text-align: center;
 } */
 .social{
-    grid-column: 4/5;
     margin: 35px;
+    text-align: right;
 }

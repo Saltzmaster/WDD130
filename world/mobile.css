@@ -1,0 +1,61 @@
+@media only screen and (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr; /* Adjust the layout for smaller screens */
+    }
+
+    .logo {
+        grid-column: 1;
+        margin: 10px 10px;
+    }
+
+    .head {
+        grid-column: 1;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .dropdown {
+        margin: 10px;
+        max-width: 90%;
+    }
+
+    img {
+        max-width: 90%;
+    }
+
+    main {
+        grid-template-columns: 1fr; /* Set a single column layout for smaller screens */
+        padding: 15px 10px; /* Adjust padding for better spacing */
+    }
+
+    .lip,
+    .tag {
+        grid-column: 1 / -1; /* Ensure .lip and .tag span the full width */
+        margin-bottom: 25px; /* Add margin for spacing between items */
+    }
+
+    .k1,
+    .k2,
+    .k3,
+    .k4,
+    .k5,
+    .k6,
+    .k7,
+    .k8,
+    .k9 {
+        grid-row: auto;
+        grid-column: 1 / -1; /* Set each class to occupy its own row and full width */
+        margin-bottom: 25px; /* Add margin for spacing between items */
+    }
+
+    .tag {
+        grid-row: 13; /* Adjust the grid row to place it at the bottom */
+        text-align: center;
+    }
+
+    .bottom {
+        grid-row: 14; /* Adjust the grid row to place it at the very bottom */
+        margin: auto;
+        text-align: center;
+    }
+}
