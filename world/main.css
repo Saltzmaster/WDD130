@@ -68,6 +68,11 @@ main{
     background-color: #98904f;
     font-family: 'Shantell Sans', cursive;;
 }
+
+img {
+    max-width: 100%;
+}
+
 .top{
     margin: 0 auto;
     grid-column: 1/-1;
